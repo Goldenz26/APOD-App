@@ -1,2 +1,2 @@
 # created by virtualenv automatically
-.API_KEY.env
+*.env
