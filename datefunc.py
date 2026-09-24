@@ -3,7 +3,8 @@ import datetime as datetime
 current_date=None
 
 def get_date_today():
-    return datetime.date.today()
+
+    return datetime.datetime.now(datetime.timezone.utc).date()
 
 
 def set_current_date(date):
